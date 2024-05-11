@@ -70,9 +70,15 @@ padding: 0;
     flex-wrap: nowrap;
 }
 
-#area-usuario {flex: 1}
+#area-categorias > * {cursor: pointer;}
 
-#area-usuario > * {padding: 0 0 0 10px}
+#area-usuario {flex: 1; }
+
+#area-usuario > *
+{
+    cursor: pointer;
+    padding: 0 0 0 10px;
+}
 
 .el-nav /* Padrão para todos os elementos em nav-topo-nav */
 {
