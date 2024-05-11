@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="temp_top-nav.css">
     <link rel="stylesheet" href="temp_bloco1.css">
+    <link rel="stylesheet" href="temp.bloco2.css">
+    <link rel="stylesheet" href="temp.bloco3.css">
 </head>
 
 <body>
@@ -17,7 +19,7 @@
 
         <img id="logomarca" src="assets/Libretto.png" class="libretto" width="160px" height="70px">
 
-        
+
         <div id="nav-topo-nav">
 
             <div class="el-nav-esquerda">
@@ -29,7 +31,8 @@
 
                 <!-- Barra de Pesquisa -->
                 <div id="barra-pesquisa-nav" class="el-nav">
-                    <input name="barra_de_pesquisa" class="barra-pesquisa" type="text" placeholder="Pesquisar por livros, gêneros e autores">
+                    <input name="barra_de_pesquisa" class="barra-pesquisa" type="text"
+                        placeholder="Pesquisar por livros, gêneros e autores">
                 </div>
 
             </div>
@@ -37,13 +40,17 @@
 
             <div id="area-usuario" class="el-nav">
                 <h3 class="nowrap">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 -960 960 960" fill="#282828"><path d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 -960 960 960"
+                        fill="#282828">
+                        <path
+                            d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z" />
+                    </svg>
                     Carrinho
                 </h3>
                 <img src="assets/user_icon.png" width="30px" height="30px">
             </div>
 
-        
+
         </div>
 
     </div>
@@ -60,25 +67,22 @@
             </div>
 
             <div class="banner-direita">
-                <img src="assets/background1.png" alt="" >
+                <img src="assets/background1.png" alt="">
             </div>
         </div>
 
     </div>
 
 
-
-
-
     <div class="bloco2">
 
+        <h1>Descubra sua nova <br>leitura favorita.</h1>
 
-        <h1>Descubra sua nova leitura favorita.</h1>
 
         <div class="bloco-lista">
+            <h5>Obras em alta</h5>
 
-            <h5>Obras em alta</h6>
-            <div class="lista-em_alta">
+            <div class="lista-em-alta">
 
                 <div id="livro_00" class="livro-na-lista">
                     <div>
@@ -142,6 +146,18 @@
                     </div>
                 </div>
 
+                <div id="livro_05" class="livro-na-lista">
+                    <div>
+                        <p>
+                            Crime<br>
+                            e Castigo<br>
+                            <br><br><br>
+                            por apenas<br>
+                            <span class="span-preco-livro">R$ 45,90</span>
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -151,17 +167,17 @@
 
     <div class="bloco3">
 
-        <h5>
-            Vai uma <span class="promo_roxo">promoção</span> aí?
-        </h5>
-        
+        <h1>
+            Vai uma <br><span class="promo_roxo">promoção</span> aí?
+        </h1>
+
         <div class="banner-oferta">
 
             <div class="oferta-lado-esquerdo">
                 <h3>Biblioteca Machado de Assis</h3>
-                <img src="assets/box_machado_promo.png" alt="Livro machado de Assis">
-
+               
                 <div class="promo-box-info">
+                    <img src="assets/box_machado_promo.png" alt="Livro machado de Assis">
                     <h4>O box contém <br> três livros:</h4>
 
                     <ul class="promo-box-livros">
@@ -170,16 +186,17 @@
                         <li>Quincas Borba</li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="oferta-lado-direito">
-                <h3>
-                    de <span classs="preco1"><s>R$89,00</s></span><br>
-                    Por apenas<br>                
-                    <span class="preco2">R$49,90</span>
-                </h3>
-
-                <button type="button">Adicionar ao carrinho.</button>
+                <div class="oferta-lado-direito">
+                    <h3>
+                        de <span classs="preco1"><s>R$89,00</s></span><br>
+                        Por apenas<br>
+                        <span class="preco2">R$49,90</span>
+                    </h3>
+    
+                    <button type="button">Adicionar ao carrinho.</button>
+                </div>
+    
             </div>
 
         </div>
