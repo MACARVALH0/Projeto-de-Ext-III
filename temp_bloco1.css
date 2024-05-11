@@ -1,0 +1,67 @@
+.bloco1 .banner
+{
+    font-family: 'Archivo Black';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 70vh;
+
+    /* border-top: 2px solid rgb(10, 10, 10); */
+    border-bottom: 50px solid rgb(30, 30, 30);
+}
+
+.banner .banner-esquerda
+{
+    display: flex;
+    min-width: 370px;
+    background-color: rgb(255, 255, 0);
+    flex: 3;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.banner .banner-esquerda h1
+{
+    font-size: 50pt;
+    color: rgb(10, 10, 10);
+    padding-left: 5%;
+}
+
+.banner .banner-esquerda button
+{
+    cursor: pointer;
+    margin: auto auto 5% auto;
+    width: fit-content;
+    text-align: center;
+    font-family: inherit;
+    font-size: 30pt;
+    color: rgb(10, 10, 10);
+    padding: 3%;
+
+    background-color: rgb(255, 255, 0);
+    border: 3pt solid rgb(10, 10, 10);
+    border-radius: 15px;
+    box-shadow: 0px 5pt 0px rgb(10, 10, 10);
+
+}
+
+
+.banner .banner-direita
+{
+    width: 25vw;
+    min-width: 275px;
+    border-color: rgb(10, 10, 10);
+    border-top: 6px solid;
+    border-left: 6px solid;
+    /* border-bottom: 6px solid; */
+
+}
+
+.banner .banner-direita img
+{
+    width: 100%;
+    min-width: 305px;
+    height: 100%;
+}

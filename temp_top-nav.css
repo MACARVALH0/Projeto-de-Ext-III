@@ -1,0 +1,88 @@
+.nav-topo
+{
+    font-size: 10pt;
+    font-family: 'Archivo';
+    font-weight: lighter;
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+
+    display: flex;
+    background-color: rgba(250, 250, 250, .8);
+    flex-direction: column;
+
+    min-width: 700px;
+}
+
+#logomarca
+{
+display: block;
+margin: auto;
+padding: 0;
+}
+
+#nav-topo-nav
+{
+    font-family: 'Archivo';
+    height: 45px;
+    min-height: 45px;
+
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.el-nav-esquerda
+{
+    width: auto;
+    height: inherit;
+
+    display: flex;
+    flex: 6;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-wrap: nowrap;
+}
+
+#area-categorias > * {cursor: pointer;}
+
+#area-usuario {flex: 1; }
+
+#area-usuario > *
+{
+    cursor: pointer;
+    padding: 0 0 0 10px;
+}
+
+.el-nav /* Padrão para todos os elementos em nav-topo-nav */
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    padding: 0 0 0 50px;
+}
+
+
+#barra-pesquisa-nav
+{
+    width: 50%;
+}
+.barra-pesquisa
+{
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+    min-width: 265px;
+    background-color: rgb(242, 242, 242);
+    outline: transparent;
+    border: none;
+}
