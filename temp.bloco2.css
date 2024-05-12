@@ -1,92 +1,85 @@
-.bloco2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.bloco2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-    height: 79ch;
+  height: 45em;
 
-   background-color: aliceblue;
+  background-color: aliceblue;
 }
 
-
-.bloco2 h1{
-    margin-left: 35px;
-    font-size: 42px;
+.bloco2 h1 {
+  margin-left: 35px;
+  font-size: 42px;
 }
 
-.bloco-lista h5{
-    margin-left: 38px;
-    font-size: 15px;
+.bloco-lista h5 {
+  margin-left: 38px;
+  font-size: 15px;
 }
 
-.lista-em-alta{
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 101em;
-    height: 19em;
-    background-color: rgb(77, 155, 119);  
-    
+.lista-em-alta {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 101.2em;
+  height: 19em;
+  background-color: rgb(175 220 126);
+  border-top: 2px solid rgb(56 69 43);
+  border-bottom: 2px solid rgb(56, 69, 43);
 }
 
-.livro-na-lista{
-    position: relative;
-    display: block;
-    font-size: 14px;
-    text-align: left;
-    
+.livro-na-lista {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  text-align: left;
 
-    width: 130px;
-    height: 213px;
-    padding: 2px 5px;
-    margin: 34px;
+  width: 130px;
+  height: 213px;
+  padding: 2px 5px;
+  margin: 34px;
 
-    border: 4px solid rgb(30, 30, 30);
-    border-radius: 17px;
-    box-shadow: 0px 5px 0px rgb(30, 30, 30);
-   
-    overflow: hidden;
-    cursor: pointer;
-    
+  border: 4px solid rgb(30, 30, 30);
+  border-radius: 17px;
+  box-shadow: 0px 5px 0px rgb(30, 30, 30);
+
+  overflow: hidden;
+  cursor: pointer;
 }
 
-#livro_00{
-    background-image: url(assets/l_alice.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_00 {
+  background-image: url(assets/l_alice.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-
-#livro_01{
-    background-image: url(assets/l_meditacoes.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_01 {
+  background-image: url(assets/l_meditacoes.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-
-#livro_02{
-    background-image: url(assets/l_jjk.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_02 {
+  background-image: url(assets/l_jjk.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-
-#livro_03{
-    background-image: url(assets/l_sisifo.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_03 {
+  background-image: url(assets/l_sisifo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#livro_04{
-    background-image: url(assets/l_crime.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_04 {
+  background-image: url(assets/l_crime.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-#livro_05{
-    background-image: url(assets/l_metamorfose.jpg);
-    background-size: cover; 
-    background-position: center;
+#livro_05 {
+  background-image: url(assets/l_metamorfose.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
