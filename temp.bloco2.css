@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    flex-direction: row;
     width: 101em;
     height: 19em;
     background-color: rgb(77, 155, 119);  
