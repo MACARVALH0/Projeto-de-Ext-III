@@ -14,12 +14,12 @@
 }
 
 .bloco3 .promo_roxo {
-    color: blueviolet;
+    color: #604a7b;
     font-weight: bolder;
 }
 
 .banner-oferta{
-    background-color: rgba(127, 71, 179, 0.685);
+    background-color: rgb(96 74 123);
     display: flex;
     width: 65em;
     flex-direction: column;
@@ -28,7 +28,7 @@
 
 .banner-oferta .titulo{
     background-color: yellow;
-    color: #531c85;
+    color: #403152;
     height: 41px;
     width: 400px;
     margin-left: 39px;
