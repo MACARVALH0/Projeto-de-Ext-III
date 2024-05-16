@@ -1,32 +1,90 @@
 .bloco3 {
+    font-family: 'Archivo Black';
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 79ch;
+    height: 470px;
     background-color: rgb(27, 27, 27);
     color: white;
 }
 
 .bloco3 h1 {
-    font-size: 60px;
-    margin-left: 32px;
+    font-size: 56px;
+    margin: 20px 25px 16px;
     font-weight: bolder;
 }
 
 .bloco3 .promo_roxo {
-    color: #604a7b;
+    color: rgb(96, 74, 123);
     font-weight: bolder;
 }
 
-.banner-oferta{
+.banner-oferta
+{
     background-color: rgb(96 74 123);
     display: flex;
-    width: 65em;
-    flex-direction: column;
+    flex-direction: row;
+    width: 75%;
     border-radius: 0px 57px 57px 0px;
+    justify-content: space-evenly;
 }
 
-.banner-oferta .titulo{
+.oferta-lado-esquerdo
+{
+    /* margin: 0 0 0 30px; */
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.oferta-lado-esquerdo .titulo
+{
+    background-color: yellow;
+    padding: 5px 3px;
+    color: #403152;
+    height: 30px;
+    width: 380px;
+    margin: 5px 0 10px 2px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.oferta-lado-esquerdo .box-info
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.promo-box-livros-lista
+{
+    list-style-type: none;
+    padding-inline-start: 22px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+
+.promo-box-livros-lista h4
+{
+    margin: 20px 0 10px;
+    font-size: 18px;
+}
+
+.oferta-lado-esquerdo img {
+    height: 192px;
+}
+
+.promo-box-livros-lista ul li{
+    list-style: none;
+    font-size: 12px;
+}
+
+
+
+
+/* .banner-oferta .titulo{
     background-color: yellow;
     color: #403152;
     height: 41px;
@@ -35,55 +93,64 @@
     border-radius: 9px;
     font-size: 24px;
     text-align: center;
-}
+} */
 
-.banner-oferta .oferta{
+/* .banner-oferta .oferta{
     display: flex;
     justify-content: space-evenly;
     position: relative;
     bottom: 9px;
     right: 44px;
-}
+} */
 
 
-.oferta-lado-esquerdo{
+/* .oferta-lado-esquerdo{
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: nowrap;
+} */
 
-.oferta-lado-esquerdo img {
-    height: 192px;
-}
 
-.oferta-lado-esquerdo ul li h4{
+
+/* .oferta-lado-esquerdo ul li h4{
     font-size: 15px;
     
-}
+} */
 
-.oferta-lado-esquerdo ul li{
-    list-style: none;
-    font-size: 13px;
-}
+
 
 .oferta-lado-direito{
-    position: relative;
-    bottom: 58px;
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo';
+    /* margin: auto; */
+    align-items: flex-end;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.oferta-lado-direito h3{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    margin: 0;
 }
 
 .oferta-lado-direito h3 s{
     color: #afacac;
 }
 
-.oferta-lado-direito h3 span{
+.oferta-lado-direito .promo-preco{
     font-size: 60px;
+    line-height: 65px;
     color: #ffd0d8;
 }
 
 .oferta-lado-direito button{
     font-size: 20px;
     font-weight: bolder;
-    height: 51px;
+    height: 50px;
     width: 235px;
     border: 4px solid black;
     border-radius: 12px;
