@@ -26,6 +26,7 @@
 
 .banner .banner-esquerda h1
 {
+    margin: auto;
     font-size: 60px;
     color: rgb(10, 10, 10);
     padding-left: 5%;
@@ -34,7 +35,7 @@
 .banner .banner-esquerda button
 {
     cursor: pointer;
-    margin: auto auto 5% auto;
+    margin: auto;
     width: fit-content;
     text-align: center;
     font-family: inherit;
