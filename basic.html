@@ -27,10 +27,33 @@
     <title>Estrutura HTML básica.</title>
 
     <style>
+
         .div-tags
         {
             background-color:antiquewhite;
         }
+
+        h1, h2, h3, h4 , h5, h6
+        {
+            text-align: center;
+        }
+
+        img
+        {
+            max-width: 350px;
+            max-height: 300px;
+
+            transition-duration: .2s;
+        }
+
+        img:hover
+        {
+            margin: 12px 0px;
+            padding: 10px;
+            border: 5px solid gray;
+        }
+
+
     </style>
 
 </head>
@@ -102,22 +125,29 @@
         <form action="/submit" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome"> <br><br>
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"> <br><br>
+
             <label for="senha">Senha:</label>
             <input type="password" id="senha" name="senha"> <br><br>
+
             <label for="cor">Cor favorita:</label>
             <input type="color" id="cor" name="cor"> <br><br>
+
             <label for="arquivo">Escolha um arquivo:</label>
             <input type="file" id="arquivo" name="arquivo"> <br><br>
+
             <label for="data">Data de nascimento:</label>
             <input type="date" id="data" name="data"> <br><br>
+
             <label for="seleção-múltipla">Seleção múltipla:</label>
             <select id="seleção-múltipla" name="seleção-múltipla" multiple>
                 <option value="opção1">Opção 1</option>
                 <option value="opção2">Opção 2</option>
                 <option value="opção3">Opção 3</option>
             </select> <br><br>
+
             <fieldset>
                 <legend>Selecione seus interesses:</legend>
                 <input type="checkbox" id="interesse1" name="interesse" value="tecnologia">
@@ -127,7 +157,9 @@
                 <input type="checkbox" id="interesse3" name="interesse" value="arte">
                 <label for="interesse3">Arte</label>
             </fieldset>
+
             <br>
+
             <button type="submit">Enviar</button>
         </form>
     </div>
