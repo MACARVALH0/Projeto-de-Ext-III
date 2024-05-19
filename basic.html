@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- 
+        1. Define a codificação de caracteres no documento.
+        Nesse caso, a UTF-8
+    -->
+    <meta charset="UTF-8">
+
+    <!-- 
+        2. Diz ao Internet Explorer para usar a versão mais recente
+        do mecanismo de renderização disponível,
+        garantindo melhor compatibilidade e desempenho. 
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--
+        3. Configura a área de visualização (viewport)
+        para a largura do dispositivo e a escala inicial de 1.0,
+        ajudando a página a ser responsiva e
+        adequada para dispositivos móveis.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de página -->
+    <title>Estrutura HTML básica.</title>
+
+    <style>
+        .div-tags
+        {
+            background-color:antiquewhite;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>A estrutura básica de uma página HTML:</h1>
+
+    <div id="tag_h1-h6" class="div-tags">
+        <h1>Cabeçalho h1</h1>
+        <h2>Cabeçalho h2</h2>
+        <h3>Cabeçalho h3</h3>
+        <h4>Cabeçalho h4</h4>
+        <h5>Cabeçalho h5</h5>
+        <h6>Cabeçalho h6</h6>
+    </div>
+
+    <div id="tag_p" class="div-tags">
+        <p>Este é um parágrafo.</p>
+        <p>Este é outro parágrafo.</p>
+    </div>
+
+    <div id="tag_a" class="div-tags">
+        <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Este é um link</a>
+        <br>
+        <a href="https://github.com/MACARVALH0/Projeto-de-Ext-III">Este é outro link</a>
+    </div>
+    <br>
+
+    <div id="tag_img" class="div-tags">
+        <img src="assets/ISS.webp" alt="Imagem da Estação Espacial Internacional em órbita">
+        <br>
+        <img src="assets/bluemarble.jpg" alt="Foto da Terra vista do espaço, conhecida como 'Blue Marble'">
+    </div>
+
+    <div id="tag_ul-ol" class="div-tags">
+        <ul>
+            <li>Item de lista não ordenada I</li>
+            <li>Item de lista não ordenada II</li>
+            <li>Item de lista não ordenada III</li>
+        </ul>
+        <ol>
+            <li>Item de lista ordenada I</li>
+            <li>Item de lista ordenada II</li>
+            <li>Item de lista ordenada III</li>
+        </ol>
+    </div>
+
+    <div id="tag_table" class="div-tags">
+        <table>
+            <tr>
+                <th>Cabeçalho 1</th>
+                <th>Cabeçalho 2</th>
+            </tr>
+            <tr>
+                <td>Célula 1.1</td>
+                <td>Célula 1.2</td>
+            </tr>
+            <tr>
+                <td>Célula 2.1</td>
+                <td>Célula 2.2</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div id="tag_form" class="div-tags">
+        <form action="/submit" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"> <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"> <br><br>
+            <label for="cor">Cor favorita:</label>
+            <input type="color" id="cor" name="cor"> <br><br>
+            <label for="arquivo">Escolha um arquivo:</label>
+            <input type="file" id="arquivo" name="arquivo"> <br><br>
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data"> <br><br>
+            <label for="seleção-múltipla">Seleção múltipla:</label>
+            <select id="seleção-múltipla" name="seleção-múltipla" multiple>
+                <option value="opção1">Opção 1</option>
+                <option value="opção2">Opção 2</option>
+                <option value="opção3">Opção 3</option>
+            </select> <br><br>
+            <fieldset>
+                <legend>Selecione seus interesses:</legend>
+                <input type="checkbox" id="interesse1" name="interesse" value="tecnologia">
+                <label for="interesse1">Tecnologia</label>
+                <input type="checkbox" id="interesse2" name="interesse" value="ciência">
+                <label for="interesse2">Ciência</label>
+                <input type="checkbox" id="interesse3" name="interesse" value="arte">
+                <label for="interesse3">Arte</label>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div id="tag_audio" class="div-tags">
+
+        <h2>Tag de Áudio:</h2>
+        <audio controls>
+            <source src="assets/kendrick.mp3" type="audio/mp3">
+            Seu navegador não suporta a tag de áudio.
+        </audio>
+
+    </div>
+
+    <br>
+
+    <div id="tag_video" class="div-tags">
+
+        <h2>Tag de Vídeo:</h2>
+        <video controls width="320" height="240">
+            <source src="assets/mamaco.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+
+    </div>
+    
+</body>
+</html>
