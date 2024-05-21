@@ -31,9 +31,7 @@ body
     flex-wrap: nowrap;
     height: 70vh;
     min-height: fit-content;
-    /* min-width: 925px; */
 
-    /* border-top: 2px solid rgb(10, 10, 10); */
     border-bottom: 50px solid rgb(30, 30, 30);
 }
 
@@ -146,8 +144,6 @@ body
     min-width: 130px;
     height: 215px;
 
-    /* padding: 2px 5px; */
-
     margin: auto 5px;
 
     border: 2px solid rgb(10, 10, 10);
@@ -179,11 +175,6 @@ body
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-
-/* .livro-na-lista div:hover
-{
-    background-color: rgba(10, 10, 10, 0.9);
-} */
 
 .livro-na-lista div p
 {
@@ -444,7 +435,6 @@ padding: 0;
 
     padding: 0 0 0 50px;
 }
-
 
 #barra-pesquisa-nav
 {
